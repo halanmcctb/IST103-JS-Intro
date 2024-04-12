@@ -18,3 +18,19 @@ let toDo = [
   "Try to convince myself that today will be the day I'll finally become a morning person",
   "Attempt to stay awake during a meeting that could have been an email",
 ];
+
+let myLaptop = {
+  brand: "Acer",
+  model: "Nitro 5",
+  color: "Black",
+  cpu: "Ryzen 7",
+  gpu: "RTX 3060",
+};
+
+console.log("To Do List: " + toDo);
+
+console.log("My laptop brand is: " + myLaptop.brand);
+console.log("My laptop model is: " + myLaptop.model);
+console.log("My laptop color is: " + myLaptop.color);
+console.log("My laptop cpu is: " + myLaptop.cpu);
+console.log("My laptop gpu is: " + myLaptop.gpu);
